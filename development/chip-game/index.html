@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chip Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="src/js/jquery.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="src/js/draggableScript.js"></script>
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script
+      type="text/javascript"
+      src="https://e2eresearch.com/swteam/engame/base-url.js"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="src/css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/stylemodule.css" />
+  </head>
+  <body>
+    <script>
+      var stageWidth =
+          "1100" /*  Keep stage size 10-20px more than the image Width to avoid stretching of images..  */,
+        imageSizepercentage =
+          "40%" /*  view image size in percentage on the stage  */,
+        imgWidth = 678,
+        imgHeight = 600;
+      /************************************?*/
+      var droppableStr =
+        "product01.jpg|product02.jpg|product03.jpg|product04.jpg|product05.jpg|product06.jpg";
+      var draggableStr =
+        "coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png|coinIcon.png";
+      var title =
+        " Which products might you buy and how much might you pay for them? Place as many, or as few, coins as you wish on any of the products.";
+      var respondentInfo =
+        "  You must click on and view a product before you are able to place coins on it. ​";
+      var outputInfo = "Data export will show number of coins on each product";
+      var client_key =
+        "zrDu_A1P1ey5sECubytQOAABhqCAAAAAAGGeN97YTGPSJadzKWrPD07y4KZEx5s3uunwwGLCchO-B0TtoQOAc6HEHIXyfxC04Z3R2dCTT3e098BmzMxrnnYrTO8S1ICCBo4SsWKIGgDDZk1fAntoLD-ttaHPDotlItYOJlsD346N6nR5KveQASTjLqeThaSGYtJy4MRmagq52ASDVfE9FgfriR90nWijs9cZdFK9RMZaLcDSLThTz-BuJ4mlxhz-ed2dgIqGZgm8NwCnJZtMBWbgCSecR-cLvBoNqInVWySiYtjKpnLAEqNfK0dq_CPDHldBbYb9FNhKg1MY6RpZlFu9RK-bS_wprViVNJ8=";
+    </script>
+    <div class="mainContainer clearfix" style="width: 1100px"></div>
+    <input type="text" id="resultstr" style="width: 100px" />
+    <input type="text" id="resultstr1" style="width: 100px" />
+  </body>
+</html>
